@@ -26,7 +26,7 @@ if (isset($_POST['submit'])) {
                  if (filter_var($mail, FILTER_VALIDATE_EMAIL)) {
                      $mail = filter_var($mail, FILTER_VALIDATE_EMAIL);
 
-                     if (mail($mail, 'exo 169', $message, 'From: leelilyfr@gmail.com')) {
+                     if (mail($mail, 'exo 169', $message, 'From: adresse1@mail.com')) {
                          echo "Mail bien envoyé";
                      } else {
                          echo "Le mail n'a pas été envoyé";
